@@ -9,7 +9,7 @@ export default function MainPage() {
         <div className="md:flex">
           <div className="md:shrink-0">
             <Image
-              className="h-48 w-full object-cover md:h-full md:w-48"
+              className="h-48 w-full object-cover md:h-30 md:w-25"
               src="/mj.jpg"
               alt="Profile picture"
               width={400}
