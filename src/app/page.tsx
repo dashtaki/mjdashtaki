@@ -9,7 +9,7 @@ export default function MainPage() {
         <div className="md:flex">
           <div className="md:shrink-0">
             <Image
-              className="h-48 w-full object-cover md:h-30 md:w-25"
+              className="h-48 w-full object-cover md:h-30 md:w-25 max-sm:h-80"
               src="/mj.jpg"
               alt="Profile picture"
               width={400}
@@ -21,10 +21,7 @@ export default function MainPage() {
             <h1 className="block mt-1 text-3xl leading-tight font-bold text-black">MJ Dashtaki</h1>
             <p className="mt-2 text-gray-500">10+ years of experience</p>
             <p className="mt-4 text-gray-700">
-              As a seasoned Frontend Engineer with over a decade of experience, I specialize in creating robust,
-              scalable, and user-friendly web applications. My expertise spans across modern JavaScript frameworks,
-              responsive design, and performance optimization. I'm passionate about crafting clean, efficient code
-              and staying at the forefront of web technologies.
+              I’m the type who enjoys challenges that shove me (sometimes not-so-gently) out of my comfort zone. My obsession with continuous learning has fueled my ability to make a real impact on projects, from boosting performance to improving user experience—because let’s face it, there’s always room for improvement, and I’m here for it!
             </p>
             <div className="mt-6 flex space-x-4">
               <Link
