@@ -17,11 +17,13 @@ export default function MainPage() {
             />
           </div>
           <div className="p-8">
-            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Senior Frontend Engineer</div>
-            <h1 className="block mt-1 text-3xl leading-tight font-bold text-black">MJ Dashtaki</h1>
-            <p className="mt-2 text-gray-500">10+ years of experience</p>
+            <h1 className="block mt-1 text-5xl leading-tight font-bold text-black">MJ Dashtaki</h1>
+            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Senior Frontend Engineer
+            </div>
             <p className="mt-4 text-gray-700">
-              I’m the type who enjoys challenges that shove me (sometimes not-so-gently) out of my comfort zone. My obsession with continuous learning has fueled my ability to make a real impact on projects, from boosting performance to improving user experience—because let’s face it, there’s always room for improvement, and I’m here for it!
+              I’m the type who enjoys challenges that shove me (sometimes not-so-gently) and designing code mostly with Javascript 10+ years.
+              Even though I hate React's useEffect but it's been a while that we are buddy but still love Angular as well. From boosting
+              performance to improving user experience and investigate solutions by discovery and delivery, all is what I'm up for it!
             </p>
             <div className="mt-6 flex space-x-4">
               <Link
@@ -29,28 +31,17 @@ export default function MainPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-gray-800 transition-colors"
-              >
-                <Github className="h-6 w-6" />
-                <span className="sr-only">GitHub</span>
-              </Link>
-              <Link
-                href="https://linkedin.com/in/mjdashtaki"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-gray-800 transition-colors"
-              >
-                <Linkedin className="h-6 w-6" />
-                <span className="sr-only">LinkedIn</span>
-              </Link>
-              <Link
-                href="/Mohammad_Jamal_Dashtaki_CV.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-gray-600 hover:text-gray-800 transition-colors"
-              >
-                <FileText className="h-6 w-6" />
-                <span className="sr-only">CV</span>
-              </Link>
+              > <Github className="h-6 w-6" /> <span className="sr-only">GitHub</span> </Link> <Link
+              href="https://linkedin.com/in/mjdashtaki"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-800 transition-colors"
+            > <Linkedin className="h-6 w-6" /> <span className="sr-only">LinkedIn</span> </Link> <Link
+              href="/Mohammad_Jamal_Dashtaki_CV.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-600 hover:text-gray-800 transition-colors"
+            > <FileText className="h-6 w-6" /> <span className="sr-only">CV</span> </Link>
             </div>
             <div className="mt-8">
               <Link
@@ -58,10 +49,7 @@ export default function MainPage() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
-              >
-                <Calendar className="h-5 w-5 mr-2" />
-                Book an Appointment
-              </Link>
+              > <Calendar className="h-5 w-5 mr-2" /> Book an Appointment </Link>
             </div>
           </div>
         </div>
