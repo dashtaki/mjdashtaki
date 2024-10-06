@@ -4,7 +4,7 @@ import { Github, Linkedin, FileText, Calendar } from 'lucide-react'
 
 export default function MainPage() {
   return (
-    <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 flex justify-center items-center">
+    <div className="min-h-screen bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 flex justify-center items-center max-sm:py-4">
       <div className="max-w-3xl mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-4xl">
         <div className="md:flex">
           <div className="md:shrink-0">
