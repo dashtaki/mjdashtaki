@@ -21,7 +21,7 @@ export default function MainPage() {
             <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Senior Frontend Engineer
             </div>
             <p className="mt-4 text-gray-700">
-              I’m the type who enjoys challenges that shove me (sometimes not-so-gently) and designing code mostly with Javascript 10+ years.
+              I'm the type who enjoys challenges that shove me (sometimes not-so-gently) and designing code mostly with Javascript 10+ years.
               Over this time, I've worked with a variety of JavaScript frameworks and libraries, including Angular, React, and Svelte and a few more in my spare time. From boosting
               performance to improving user experience and investigate solutions by discovery and delivery, all is what I'm up for it!
             </p>
