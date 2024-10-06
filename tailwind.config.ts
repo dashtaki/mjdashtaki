@@ -1,9 +1,7 @@
-import type { Config } from "tailwindcss";
-
 const config: {
   plugins: any[];
   theme: {
-    extend: { width: { '25': string }; colors: { background: string; foreground: string }; height: { '30': string } }
+    extend: { width: { '25': string }; colors: { background: string; foreground: string }; height: { '32': string } }
   };
   content: string[]
 } = {
@@ -22,7 +20,7 @@ const config: {
         '25': '25rem',
       },
       height: {
-        '30': '30rem',
+        '32': '32rem',
       }
     },
   },

@@ -9,7 +9,7 @@ export default function MainPage() {
         <div className="md:flex">
           <div className="md:shrink-0">
             <Image
-              className="h-48 w-full object-cover md:h-30 md:w-25 max-sm:h-80"
+              className="h-48 w-full object-cover md:h-32 md:w-25 max-sm:h-80"
               src="/mj.jpg"
               alt="Profile picture"
               width={400}
@@ -17,10 +17,10 @@ export default function MainPage() {
             />
           </div>
           <div className="p-8">
-            <h1 className="block mt-1 text-5xl leading-tight font-bold text-black">MJ Dashtaki</h1>
-            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold">Senior Frontend Engineer
+            <h1 className="block mt-1 text-4xl leading-tight font-bold text-black">MJ Dashtaki</h1>
+            <div className="uppercase tracking-wide text-sm text-indigo-500 font-semibold text-lg">Senior Frontend Engineer
             </div>
-            <p className="mt-4 text-gray-700">
+            <p className="mt-6 text-gray-700 leading-7">
               {`I'm the type who enjoys challenges that shove me (sometimes not-so-gently) and designing code mostly with Javascript 10+ years.
                 Over this time, I've worked with a variety of JavaScript frameworks and libraries, including Angular, React, and Svelte. From boosting
                 performance to improving user experience and investigate solutions by discovery and delivery, all is what I'm up for it!`}
